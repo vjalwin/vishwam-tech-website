@@ -329,14 +329,7 @@ section {
 
 
 
-.service-item:hover .service-icon {
-    transform: rotateY(360deg) scale(1.1);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-}
 
-.service-item:hover .service-icon img {
-    filter: brightness(1.2) saturate(1.3);
-}
 
 /* Service Content */
 .service-content {
