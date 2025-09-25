@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vishwam.co/sitemap.xml
