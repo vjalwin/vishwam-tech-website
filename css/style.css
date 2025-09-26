@@ -552,8 +552,6 @@ section {
     /* top-align both columns */
 }
 
-
-
 .footer-brand p {
     color: #ccc;
     margin-top: 0.5rem;
@@ -576,7 +574,6 @@ section {
     color: #ccc;
     text-decoration: none;
     transition: color 0.3s ease;
-
 }
 
 .footer-links a:hover {
