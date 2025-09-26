@@ -528,9 +528,13 @@ section {
 
 /* Footer */
 .footer {
+    display: flex;
+    /* two-column layout */
+    justify-content: flex-start;
     background: #333;
     color: white;
     padding: 3rem 0 1rem;
+    align-items: flex-start;
 }
 
 .footer-content {
@@ -538,6 +542,14 @@ section {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+}
+
+.footer-top {
+    display: flex;
+    gap: 50px;
+    /* space between links and map */
+    align-items: flex-start;
+    /* top-align both columns */
 }
 
 .footer-brand p {
@@ -548,6 +560,7 @@ section {
 .footer-links {
     display: flex;
     gap: 2rem;
+    flex-direction: column;
 }
 
 .footer-links a {
@@ -565,6 +578,10 @@ section {
     padding-top: 2rem;
     border-top: 1px solid #555;
     color: #ccc;
+}
+
+.footer-map h4 {
+    margin-bottom: 10px;
 }
 
 /* Smooth scroll behavior */
