@@ -564,6 +564,10 @@ section {
 
 }
 
+.footer-brand a i.fab.fa-linkedin {
+    color: #ecececd0 !important;
+}
+
 .footer-links {
     display: flex;
     gap: 2rem;
