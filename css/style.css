@@ -546,15 +546,24 @@ section {
 
 .footer-top {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     /* space between links and map */
     align-items: flex-start;
     /* top-align both columns */
 }
 
+
+
 .footer-brand p {
     color: #ccc;
     margin-top: 0.5rem;
+}
+
+.footer-brand a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ecececd0;
+
 }
 
 .footer-links {
@@ -567,6 +576,7 @@ section {
     color: #ccc;
     text-decoration: none;
     transition: color 0.3s ease;
+
 }
 
 .footer-links a:hover {
