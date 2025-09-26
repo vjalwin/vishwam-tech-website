@@ -560,12 +560,25 @@ section {
 .footer-brand a {
     display: inline-block;
     margin-top: 10px;
-    color: #ecececd0;
 
 }
 
-.footer-brand a i.fab.fa-linkedin {
-    color: #ecececd0 !important;
+.footer-brand a.linkedin-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e9e9e9;
+    /* circle background */
+    text-decoration: none;
+}
+
+.footer-brand a.linkedin-icon i.fab.fa-linkedin {
+    color: #6c6c6c !important;
+    /* force grey */
+    font-size: 30px;
 }
 
 .footer-links {
