@@ -191,7 +191,7 @@ async function submitApplication(event) {
 
         if (response.ok) {
             successMsg.classList.add('show');
-            successMsg.textContent = 'Thank you for your application! We will be in touch soon.';
+            successMsg.textContent = 'Thank you for your application! Our team will review it and reach out soon.';
             submitBtn.textContent = 'Application Sent!';
             form.reset();
 
@@ -208,7 +208,7 @@ async function submitApplication(event) {
         }
     } catch (error) {
         console.error('Error:', error);
-        alert('Error submitting. Please email gayathri@vishwam.co directly.');
+        alert('Error submitting. Please email info@vishwam.co directly.');
         submitBtn.disabled = false;
         submitBtn.textContent = 'Apply Now';
     }
