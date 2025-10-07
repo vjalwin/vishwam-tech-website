@@ -56,3 +56,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    try {
+        for (const sectionId in config) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.style.display = config[sectionId] ? 'block' : 'none';
+            }
+        }
+    } catch (error) {
+        console.error('Error applying config:', error);
+    }
+});
