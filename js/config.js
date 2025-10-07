@@ -1,6 +1,6 @@
 const config = {
     "home": true,
-    "career": false,
+    "career": true,
     "about": true,
     "contact": true,
     "services": true
