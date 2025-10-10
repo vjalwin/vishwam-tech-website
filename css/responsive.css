@@ -6,6 +6,10 @@
         max-width: 1600px;
     }
 
+    .section-header {
+        margin-top: 100px;
+    }
+
     .hero {
         min-height: 85vh;
     }
@@ -25,21 +29,27 @@
         max-width: 1900px;
     }
 
-
+    .section-header {
+        margin-top: 100px;
+        /* adjust based on header height */
+    }
 
     .about {
         max-width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
+        min-height: 500px;
+        /* sets proper height to avoid extreme stretching */
         background: url('../images/background-img/about-2.png') no-repeat center center;
         background-size: cover;
+        padding: 20px 0;
+        /* optional, adds spacing inside */
     }
 
     .about-content {
-        margin-top: 100px;
         max-width: 800px;
         text-align: center;
-        padding: 60px 80px;
     }
 
     .about-content p {
@@ -62,7 +72,9 @@
         gap: 3rem;
     }
 
-
+    .section-header {
+        margin-top: 100px;
+    }
 
     .service-image {
         height: 300px;
@@ -76,16 +88,22 @@
         font-size: 1rem;
     }
 
+
     .about {
+        max-width: 100%;
         display: flex;
-        justify-content: flex-end;
-        align-items: right;
+        align-items: center;
+        justify-content: center;
+        min-height: 500px;
+        /* sets proper height to avoid extreme stretching */
         background: url('../images/background-img/about-2.png') no-repeat center center;
-        background-size: contain;
+        background-size: cover;
+        padding: 20px 0;
+        /* optional, adds spacing inside */
     }
 
     .about-content {
-        max-width: 500px;
+        max-width: 900px;
         text-align: center;
         padding: 0 25px;
     }

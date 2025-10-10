@@ -184,7 +184,7 @@ async function submitApplication(event) {
 
     try {
         // Replace YOUR_FORM_ENDPOINT with your GetForm endpoint
-        const response = await fetch('https://getform.io/f/agdjzmmb', {
+        const response = await fetch('https://getform.io/f/byvejgoa', {
             method: 'POST',
             body: formData
         });

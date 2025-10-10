@@ -248,14 +248,14 @@ section {
     min-height: clamp(400px, 70vh, 700px);
     position: relative;
     background: url('../images/background-img/about.png') no-repeat center top;
-    background-size: cover;
+    background-size: 2600px auto;
     background-position: center top;
     -webkit-mask-image: radial-gradient(circle at top left, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
     mask-image: radial-gradient(circle at top left, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0) 100%);
 }
 
 .about-content {
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
